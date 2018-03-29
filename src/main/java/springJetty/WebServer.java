@@ -26,7 +26,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 public class WebServer
 {
 	// TODO: You should configure this appropriately for your environment
-	private static final String LOG_PATH = "./var/logs/access/yyyy_mm_dd.request.log";
+	private static final String LOG_PATH = "./log/server/yyyy_mm_dd.request.log";
 	
 	private static final String WEB_XML = "WEB-INF/web.xml";
 
